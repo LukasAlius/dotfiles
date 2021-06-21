@@ -11,6 +11,7 @@ apt-get update
 
 # Install from Repos
 apt install snapd -y
+apt install gufw          # GUI for firewall
 apt install corectrl -y		# GUI for AMD graphics and CPU control
 apt install gnome-tweak-tool -y
 apt install firefox-gnome-shell -y
