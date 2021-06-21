@@ -24,6 +24,12 @@ apt install fonts-firacode -y
 snap install spotify
 snap install --classic code
 
+# Install nvm (node version manager)
+wget -qO- https://raw.githubusercontent.com/nvm-sh/nvm/v0.38.0/install.sh | bash
+source ~/.bashrc
+nvm install node
+nvm use node
+
 # install nordic theme
 
 echo All applications have been installed.
