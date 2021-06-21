@@ -11,13 +11,14 @@ apt-get update
 
 # Install from Repos
 apt install snapd -y
-apt install gufw          # GUI for firewall
+apt install gufw -y       # GUI for firewall
 apt install corectrl -y		# GUI for AMD graphics and CPU control
 apt install gnome-tweak-tool -y
 apt install firefox-gnome-shell -y
 apt install steam -y
 apt install piper -y			# GUI for logi mices
-apt install papirus-icon-theme
+apt install papirus-icon-theme -y
+apt install fonts-firacode -y
 
 # Install smap packages
 snap install spotify
